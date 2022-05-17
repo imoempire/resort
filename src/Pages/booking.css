@@ -1,0 +1,65 @@
+
+.booking-from-center{
+   background: rgba(0, 0, 0, 0.5);
+   text-align: center;
+   margin: 0;
+   padding: 0;
+}
+
+.book-form{
+   display: inline-block;
+   color: #f7f7f7;
+   text-align: center;
+   text-transform: capitalize;
+   letter-spacing: 3px;
+}
+.book-form .inputs{
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(5, 5, 5);
+   height: 10vh;
+   border-radius: 20px;
+   color: black;
+   margin-bottom: 10px;
+   box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.book-form .inputs label {
+   color: white;
+   border-radius: 5px;
+}
+.book-form .inputs input{
+   border: 1px solid #000;
+}
+ .book-from div {
+   width: 10rem;
+   height: 5px;
+   background: #af9a7d;
+   margin: 1.7rem auto;
+ }
+  .book-input{
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+ }
+
+ .book-from p {
+   font-size: 1.2rem;
+   margin-bottom: 2rem;
+ }
+
+@media screen and (min-width: 576px) {
+   .book-form {
+     padding: 2rem 3rem;
+   }
+   .book-form h1 {
+     font-size: 3rem;
+   }
+ }
+ @media screen and (min-width: 992px) {
+   .book-form {
+     padding: 2rem 6rem;
+   }
+   .book-form h1 {
+     font-size: 4rem;
+   }
+ }

@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { RoomProvider } from './context';
+import { Provider } from 'react-redux';
+import store from './Store/store';
+
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
+    <RoomProvider>
     <App />
-  </React.StrictMode>,
+    </RoomProvider>
+  </Provider>,
   document.getElementById('root')
 );
 
